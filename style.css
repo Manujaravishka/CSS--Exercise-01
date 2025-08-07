@@ -1,6 +1,6 @@
 
 
-#heding {
+h1 {
     color: red;
 }
 p{
@@ -29,4 +29,81 @@ a{
 }
 .font{
     font-size: 24px;
+}
+/* id(#)     */
+
+
+#main1{
+    border: 2px solid blue;
+}
+#header{
+    text-align: center;
+}
+#footer{
+    background-color: gray;
+}
+#intro{
+    font-weight: bold;
+}
+#content1{
+    padding: 20px;
+}
+
+/*  Group Selectors   */
+
+h2 , h3 , h4{
+    color: navy;
+}
+.box, .card, #main-container{
+    margin: 10px;
+}
+p,
+h1, h2, h3, h4, h5, h6 {
+  background-color: lightblue;
+}
+p,span,li{
+    font-size: 18px;
+}
+.error,.warning , .info{
+    border: 1px solid red;
+}
+
+
+
+
+
+/*    Descendant Selectors  */
+
+p span {
+  color: purple;
+}
+
+.menu li{
+    color: green;
+}
+#content2 b{
+    font-weight: bold;
+}
+div a{
+    text-decoration: none;
+}
+.note em{
+    font-style: italic;
+}
+
+
+
+
+
+
+/*    Child Selectors  */
+
+ul > li{
+    color: brown;
+}
+#main2 > p{
+    color: purple;
+}
+.section > h3{
+    color: darkblue;
 }
