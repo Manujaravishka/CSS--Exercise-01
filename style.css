@@ -1,5 +1,7 @@
 
 
+/*Basic Selectors*/
+
 h1 {
     color: red;
 }
@@ -15,6 +17,11 @@ ul {
 a{
     color: green;
 }
+
+
+
+
+/* Class Selectors */
 .highlight {
     background-color: yellow;
 }
@@ -30,8 +37,10 @@ a{
 .font{
     font-size: 24px;
 }
-/* id(#)     */
 
+
+
+/* ID Selectors   */
 
 #main1{
     border: 2px solid blue;
@@ -48,6 +57,7 @@ a{
 #content1{
     padding: 20px;
 }
+
 
 /*  Group Selectors   */
 
@@ -106,4 +116,93 @@ ul > li{
 }
 .section > h3{
     color: darkblue;
+}
+.container > div {
+  margin: 10px;
+}
+tr > td {
+  border: 1px solid gray;
+}
+
+
+
+/*    Adjacent Sibling Selectors  */
+
+h1 + p{
+    color: orange;
+
+}
+div + div {
+  background-color: beige;
+}
+input + label {
+    font-weight: bold;
+}
+input + label {
+  font-weight: bold;
+}
+h1 + h2 {
+  color: darkgreen;
+}
+image + span{
+    font-weight: bold;
+}
+
+
+/*    General Sibling Selectors  */
+
+h2 ~ p {
+  color: steelblue;
+}
+form ~ .alert{
+    background-color: pink;
+}
+label ~ input{
+    border: 1px dashed black;
+}
+li ~ li{
+    font-style: italic;
+}
+h3 ~ h4{
+    color: olive;
+}
+
+
+
+/* Attribute Selectors   */
+
+input[type="text"] {
+  border: 2px solid blue;
+}
+a[target="_blank"] {
+  color: teal;
+}
+[disabled] {
+  background-color: lightgray;
+}
+[title] {
+  border-bottom: 1px dotted black;
+}
+input[placeholder] {
+  border: 1px solid green;
+}
+
+
+/* Pseudo-classes   */
+
+li:first-child {
+  font-weight: bold;
+}
+section p:last-of-type {
+  color: crimson;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+input:hover {
+  background-color: lightyellow;
+}
+
+a:visited {
+  color: purple;
 }
