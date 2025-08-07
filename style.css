@@ -1,0 +1,32 @@
+
+
+#heding {
+    color: red;
+}
+p{
+    color: blue;
+}
+div{
+    background-color: lightgray;
+}
+ul {
+  list-style: none;
+}
+a{
+    color: green;
+}
+.highlight {
+    background-color: yellow;
+}
+.note{
+    font-style: italic;
+}
+.error{
+    color: red;
+}
+.box{
+    border: 2px solid black;
+}
+.font{
+    font-size: 24px;
+}
